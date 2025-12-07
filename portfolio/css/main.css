@@ -1,0 +1,43 @@
+@import url(default.css);
+@import url(fonts.css);
+@import url(common.css);
+
+* {
+    cursor: url(../images/Cursors/Pointer.png) 2 2, auto;
+}
+.visual {
+    height: 100vw;
+    background-color: var(--color-main);
+    padding: 465px 0 0 0;
+}
+.visual h1 {
+    font-size: 70px;
+    line-height: 1.3;
+    text-align: center;
+    color: var(--color-main2);
+}
+.visual h1.typing {
+    width: 0;
+    overflow: hidden;
+    white-space: nowrap;
+    border-right: 2px solid var(--color-main2); /* 커서 색 - 빨간색 */
+    font-size: 70px;
+    animation: typing 3s steps(40, end) forwards,
+               blink 6s step-end forwards;
+}
+/* 타이핑되는 효과 */
+@keyframes typing {
+    from { width: 0; }
+    to { width: 100%; }
+}
+/* 커서 깜박임 */
+@keyframes blink {
+    0% { border-color: transparent; }
+    50% { border-color: var(--color-main2); }
+    100% { border-color: transparent; }
+}
+
+.insta {
+    margin: 156px 0 112px 0;
+    background-image: url(../images/bg01.jpg);
+}
