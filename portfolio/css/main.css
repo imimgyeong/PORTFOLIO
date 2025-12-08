@@ -239,28 +239,28 @@
     background-size: cover;
 }
 .insta .phone .phone_photo .feed .info ul li.skill .icon.ps::after {
-    background-image: url(../images/Photoshop.jpg);
+    background-image: url(../images/main/Photoshop.jpg);
 }
 .insta .phone .phone_photo .feed .info ul li.skill .icon.ai::after {
-    background-image: url(../images/Illustrator.jpg);
+    background-image: url(../images/main/Illustrator.jpg);
 }
 .insta .phone .phone_photo .feed .info ul li.skill .icon.figma::after {
-    background-image: url(../images/Figma.jpg);
+    background-image: url(../images/main/Figma.jpg);
 }
 .insta .phone .phone_photo .feed .info ul li.skill .icon.html::after {
-    background-image: url(../images/html.jpg);
+    background-image: url(../images/main/html.jpg);
 }
 .insta .phone .phone_photo .feed .info ul li.skill .icon.css::after {
-    background-image: url(../images/css.jpg);
+    background-image: url(../images/main/css.jpg);
 }
 .insta .phone .phone_photo .feed .info ul li.skill .icon.js::after {
-    background-image: url(../images/js.jpg);
+    background-image: url(../images/main/js.jpg);
 }
 .insta .phone .phone_photo .feed .info ul li.skill .icon.vs::after {
-    background-image: url(../images/vs.jpg);
+    background-image: url(../images/main/vs.jpg);
 }
 .insta .phone .phone_photo .feed .info ul li.skill .icon.git::after {
-    background-image: url(../images/git.jpg);
+    background-image: url(../images/main/git.jpg);
 }
 
 .insta .phone .phone_photo .feed .project ul {

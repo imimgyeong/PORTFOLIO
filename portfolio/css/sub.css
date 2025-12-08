@@ -1,0 +1,21 @@
+@import url(../css/default.css);
+@import url(../css/fonts.css);
+@import url(../css/common.css);
+
+.sub_visual {
+    height: 600px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.sub_visual.moonshin {
+   background-image: url(../images/sub/sub01.jpg);
+}
+.sub_visual.vogue {
+    background-image: url(../images/sub/sub02.jpg);
+}
+.sub_visual.moonshin {
+    background-image: url(../images/sub/sub03.jpg);
+}
+
+/* .sub_footer */
