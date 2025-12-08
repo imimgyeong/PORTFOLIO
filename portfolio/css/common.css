@@ -95,6 +95,6 @@ body {
 
 /* 글 드래그했을떄 색변하게하는거  */
 ::selection {
-    background-color: var(--color-point);
-    color: var(--color-white);
+    background-color: var(--color-main);
+    color: var(--color-main2);
 }
