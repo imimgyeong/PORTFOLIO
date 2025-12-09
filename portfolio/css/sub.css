@@ -6,7 +6,7 @@
     cursor: url(../images/main/s_cursor.svg) 2 2, auto;
 }
 
-.sub_visual {
+a .sub_visual {
     height: 600px;
     background-position: center center;
     background-repeat: no-repeat;
@@ -16,33 +16,35 @@
     align-items: center;
     letter-spacing: -10%;
 }
-.sub_visual.moonshin .logo {
+
+a .sub_visual.moonshin h1.logo {
     width: 676.05px;
     height: 90px;
     background: url(../images/sub/sub_logo01.svg);
     margin: 0 0 24px 0;
 }
-.sub_visual.vogue .logo {
+a .sub_visual.vogue h1.logo {
     width: 346px;
     height: 90px;
     background: url(../images/sub/sub_logo02.svg);
     margin: 0 0 24px 0;
 }
-.sub_visual.fritz .logo {
+a .sub_visual.fritz h1.logo {
     width: 128px;
     height: 144px;
     background: url(../images/sub/sub_logo03.svg);
     margin: 0 0 24px 0;
 }
-.sub_visual.moonshin {
+a .sub_visual.moonshin {
    background-image: url(../images/sub/sub01.jpg);
 }
-.sub_visual.vogue {
+a .sub_visual.vogue {
     background-image: url(../images/sub/sub02.jpg);
 }
-.sub_visual.fritz {
+a .sub_visual.fritz {
     background-image: url(../images/sub/sub03.jpg);
 }
+
 
 .content a .photo {
     overflow: hidden;
