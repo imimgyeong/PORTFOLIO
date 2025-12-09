@@ -198,7 +198,6 @@
 .insta .phone .phone_photo .feed .info ul li {
     width: 222px;
     height: 306px;
-    border: 1px solid #1d1d1d;
     position: relative;
     background-position: center center;
     background-repeat: no-repeat;
@@ -221,6 +220,8 @@
     padding: 76px 0 0 12px;
     background-image: url(../images/main/feed01.jpg);
     color: var(--color-white);
+    border-width: 1px 1px 1px 1px;
+    border-color: #1d1d1d;
 }
 .insta .phone .phone_photo .feed .info ul li.edu span {
     display: block;
@@ -234,6 +235,8 @@
     padding: 102px 0 0 12px;
     background-image: url(../images/main/feed02.jpg);
     color: var(--color-white);
+    border-width: 1px 1px 1px 0;
+    border-color: #1d1d1d;
 }
 .insta .phone .phone_photo .feed .info ul li.work span {
     display: block;
@@ -249,6 +252,8 @@
     padding: 76px 0 57px 0;
     gap:  18px 14px;
     background-image: url(../images/main/feed03.jpg);
+    border-width: 1px 1px 1px 0;
+    border-color: #1d1d1d;
 }
 .insta .phone .phone_photo .feed .info ul li.skill .icon {
     position: relative;
@@ -298,20 +303,28 @@
 .insta .phone .phone_photo .feed .project ul li {
     width: 222px;
     height: 306px;
-    border: 1px solid #1d1d1d;
     font-weight: 700;
     padding: 20px 0 0 0;
 }
 .insta .phone .phone_photo .feed .project ul li.pro01 {
     background-color: #D5CBBF;
+    border-width: 0 1px 1px 1px;
+    border-style: solid;
+    border-color: #1d1d1d;
 }
 .insta .phone .phone_photo .feed .project ul li.pro02 {
     background-color: #000000;
     color: var(--color-white);
+    border-width: 0 1px 1px 0;
+    border-style: solid;
+    border-color: #1d1d1d;
 }
 .insta .phone .phone_photo .feed .project ul li.pro03 {
     background-color: #B8121A;
     color: var(--color-white);
+    border-width: 0 1px 1px 0;
+    border-style: solid;
+    border-color: #1d1d1d;
 }
 .insta .phone .phone_photo .feed .project ul li a .photo {
     overflow: hidden;
